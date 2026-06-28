@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 """Connecting to Dataset"""
-excel_path = "C:/Users/Valieasr/Documents/KAN/FinalDataNN.xlsx"
+excel_path = "main/FinalDataNN.xlsx"
 
 df = pd.read_excel(excel_path)
 
