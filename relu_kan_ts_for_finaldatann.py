@@ -8,7 +8,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
 # Load and clean the dataset
-excel_path = "/FinalDataNN.xlsx"
+excel_path = "main/FinalDataNN.xlsx"
 df = pd.read_excel(excel_path)
 
 # Drop rows containing NaN in the 4 key columns
